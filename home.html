@@ -4,27 +4,27 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Home</title>
+   <title>Trang Chủ</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
-   <!-- custom css file link  -->
+   <!-- css link  -->
    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
    
-<!-- header section starts  -->
+<!-- header starts  -->
 
 <header class="header">
 
    <nav class="navbar nav-1">
       <section class="flex">
-         <a href="home.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>My Home</a>
 
          <ul>
-            <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+            <li><a href="#">Đăng Bài BĐS<i class="fas fa-paper-plane"></i></a></li>
          </ul>
       </section>
    </nav>
@@ -35,7 +35,7 @@
 
          <div class="menu">
             <ul>
-               <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+               <li><a href="#">Mua Nhà<i class="fas fa-angle-down"></i></a>
                   <ul>
                      <li><a href="#">house</a></li>
                      <li><a href="#">flat</a></li>
@@ -44,20 +44,20 @@
                      <li><a href="#">furnished</a></li>
                   </ul>
                </li>
-               <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+               <li><a href="#">Bán Nhà<i class="fas fa-angle-down"></i></a>
                   <ul>
                      <li><a href="#">post property</a></li>
                      <li><a href="#">dashboard</a></li>
                   </ul>
                </li>
-               <li><a href="#">rent</a>
+               <li><a href="#">Cho Thuê</a>
                   <ul>
                      <li><a href="#">house</a></li>
                      <li><a href="#">flat</a></li>
                      <li><a href="#">shop</a></li>
                   </ul>
                </li>
-               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+               <li><a href="#">Trợ Giúp<i class="fas fa-angle-down"></i></a>
                   <ul>
                      <li><a href="about.html">about us</a></i></li>
                      <li><a href="contact.html">contact us</a></i></li>
@@ -68,8 +68,8 @@
          </div>
 
          <ul>
-            <li><a href="#">saved <i class="far fa-heart"></i></a></li>
-            <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+            <li><a href="#">Đã Lưu <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Tài Khoản <i class="fas fa-angle-down"></i></a>
                <ul>
                   <li><a href="login.html">login</a></li>
                   <li><a href="register.html">register</a></li>
@@ -81,13 +81,78 @@
 
 </header>
 
-<!-- header section ends -->
+<!-- header ends -->
 
 
+<!-- home start -->
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>Find your perfect home</h3>
+         <div class="box">
+            <p>Lựa Chọn Địa Điểm<span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="Chon Ten Thanh Pho" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>Loại Hình Nhà Ở<span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">Căn Hộ</option>
+                  <option value="house">Nhà Phố</option>
+                  <option value="shop">Shop House</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Phòng Ngủ<span>*</span></p>
+               <select name="Room" class="input" required>
+                  <option value="1">1 Phòng</option>
+                  <option value="2">2 Phòng</option>
+                  <option value="3">3 Phòng</option>
+                  <option value="4">4 Phòng</option>
+                  <option value="5">5 Phòng</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Giá Từ<span>*</span></p>
+               <select name="Cost" class="input" required>
+                  <option value="5000000">5 Triệu</option>
+                  <option value="10000000">10 Triệu</option>
+                  <option value="15000000">15 Triệu</option>
+                  <option value="20000000">20 Triệu</option>
+                  <option value="25000000">25 Triệu</option>
+                  <option value="30000000">30 Triệu</option>
+                  <option value="35000000">35 Triệu</option>
+                  <option value="40000000">40 Triệu</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Giá Đến<span>*</span></p>
+               <select name="Cost" class="input" required>
+                  <option value="5000000">5 Triệu</option>
+                  <option value="10000000">10 Triệu</option>
+                  <option value="15000000">15 Triệu</option>
+                  <option value="20000000">20 Triệu</option>
+                  <option value="25000000">25 Triệu</option>
+                  <option value="30000000">30 Triệu</option>
+                  <option value="35000000">35 Triệu</option>
+                  <option value="40000000">40 Triệu</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home end -->
 
 
-
-<!-- footer section starts -->
+<!-- footer starts -->
 
 <footer class="footer">
 
