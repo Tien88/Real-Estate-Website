@@ -229,6 +229,72 @@ section{
     }
 }
 
+
+.footer{
+    background-color: var(--black);
+}
+ 
+.footer .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+ 
+.footer .flex .box{
+    flex: 1 1 30rem;
+}
+ 
+.footer .flex .box a{
+    display: block;
+    padding: 1rem 0;
+    font-size: 1.8rem;
+}
+ 
+.footer .flex .box a span{
+    color: var(--white);
+}
+ 
+.footer .flex .box a:hover span{
+    text-decoration: underline;
+}
+ 
+.footer .flex .box a i{
+    color: var(--main-color);
+}
+ 
+.footer .flex .box:last-child{
+    text-align: right;
+}
+ 
+.footer .flex .box:last-child a i{
+    margin-left: 1.5rem;
+}
+ 
+.footer .flex .box:first-child a i{
+    margin-right: 1.5rem;
+}
+ 
+.footer .flex .box:nth-child(2){
+    text-align: center;
+}
+ 
+.footer .credit{
+    padding: 3rem 2rem;
+    text-align: center;
+    border-top: var(--border);
+    font-size: 2rem;
+    color: var(--white);
+    margin-top: 2rem;
+    /* padding-bottom: 10rem; */
+}
+ 
+.footer .credit span{
+    color: var(--main-color);
+}
+
+
+
 @media (max-width:450px){
 
     html{
