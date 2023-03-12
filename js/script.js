@@ -14,3 +14,9 @@ document.querySelectorAll('.view-property .details .thumb .small-images img').fo
       document.querySelector('.view-property .details .thumb .big-image img').src = src;
    }
 });
+
+document.querySelectorAll('.faq .box-container .box h3').forEach(headings =>{
+   headings.onclick = () =>{
+      headings.parentElement.classList.toggle('active');
+   }
+});
