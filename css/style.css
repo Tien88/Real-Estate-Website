@@ -834,6 +834,46 @@ section{
 }
 
 
+.form-container form {
+   max-width: 50rem;
+   margin: 0 auto;
+   background-color: var(--white);
+   box-shadow: var(--box-shadow);
+   padding: 2rem;
+   text-align: center;
+}
+
+.form-container form h3 {
+   padding-bottom: 1rem;
+   font-size: 2.5rem;
+   color: var(--black);
+   text-transform: capitalize;
+}
+
+.form-container form .box {
+   border: var(--border);
+   padding: 1.4rem;
+   color: var(--black);
+   margin: 1rem 0;
+   width: 100%;
+   font-size: 1.8rem;
+}
+
+.form-container form p {
+   font-size: 1.7rem;
+   padding: 1rem 0;
+   color: var(--light-color);
+}
+
+.form-container form p a {
+   color: var(--main-color);
+}
+
+.form-container form p a:hover {
+   text-decoration: underline;
+}
+
+
 
 .footer{
     background-color: var(--black);
