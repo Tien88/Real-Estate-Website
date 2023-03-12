@@ -84,8 +84,191 @@
 <!-- header section ends -->
 
 
+<!-- search filter starts -->
 
+<section class="filters" style="padding-bottom: 0;">
 
+   <form action="" method="post">
+      <div id="close-filter"><i class="fas fa-times"></i></div>
+      <h3>Tim Kiem</h3>
+
+      <div class="flex">
+            <div class="box">
+               <p>Lựa Chọn Địa Điểm<span>*</span></p>
+               <input type="text" name="location" required maxlength="50" placeholder="Chọn Tên Thành Phố" class="input">
+            </div>
+            <div class="box">
+               <p>Yeu Cau<span>*</span></p>
+               <select name="offer" class="input" required>
+                  <option value="sale">sale</option>
+                  <option value="resale">resale</option>
+                  <option value="rent">rent</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Loại Hình Nhà Ở<span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="flat">Căn Hộ</option>
+                  <option value="house">Nhà Phố</option>
+                  <option value="shop">Shop House</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Phòng Ngủ<span>*</span></p>
+               <select name="Room" class="input" required>
+                  <option value="1">1 Phòng</option>
+                  <option value="2">2 Phòng</option>
+                  <option value="3">3 Phòng</option>
+                  <option value="4">4 Phòng</option>
+                  <option value="5">5 Phòng</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Giá Từ<span>*</span></p>
+               <select name="Cost" class="input" required>
+                  <option value="5000000">5 Triệu</option>
+                  <option value="10000000">10 Triệu</option>
+                  <option value="15000000">15 Triệu</option>
+                  <option value="20000000">20 Triệu</option>
+                  <option value="25000000">25 Triệu</option>
+                  <option value="30000000">30 Triệu</option>
+                  <option value="35000000">35 Triệu</option>
+                  <option value="40000000">40 Triệu</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Giá Đến<span>*</span></p>
+               <select name="Cost" class="input" required>
+                  <option value="5000000">5 Triệu</option>
+                  <option value="10000000">10 Triệu</option>
+                  <option value="15000000">15 Triệu</option>
+                  <option value="20000000">20 Triệu</option>
+                  <option value="25000000">25 Triệu</option>
+                  <option value="30000000">30 Triệu</option>
+                  <option value="35000000">35 Triệu</option>
+                  <option value="40000000">40 Triệu</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Status<span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="ready to move">Ready to move</option>
+                  <option value="under construction">Under construction</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Furnished<span>*</span></p>
+               <select name="type" class="input" required>
+                  <option value="unfurnished">unfurnished</option>
+                  <option value="furnished">Furnished</option>
+                  <option value="semi-furnished">semi-Furnished</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+   </form>
+
+</section>
+
+<!-- search filter ends -->
+
+<div id="filter-btn" class="fas fa-filter"></div>
+
+<!-- listings starts -->
+
+<section class="listings">
+
+   <h1 class="heading">Ket Qua Tim Kiem</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>T</h3>
+            <div>
+               <p>Tran Tien</p>
+               <span>20-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Nhà</span><span>Bán</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">Modern flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-market-alt"></i><span>Bình Thạnh - Ho Chi Minh - VietNam</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>250m2</span></p>
+         </div>
+         <a href="view_property.html" class="btn">Xem Nhà</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>T</h3>
+            <div>
+               <p>Tran Tien</p>
+               <span>20-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Căn Hộ</span><span>Bán</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">Modern flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-market-alt"></i><span>Bình Thạnh - Ho Chi Minh - VietNam</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>250m2</span></p>
+         </div>
+         <a href="view_property.html" class="btn">Xem Nhà</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>T</h3>
+            <div>
+               <p>Tran Tien</p>
+               <span>20-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Căn Hộ</span><span>Bán</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Modern flats and Appartments</h3>
+         <p class="location"><i class="fas fa-map-market-alt"></i><span>Bình Thạnh - Ho Chi Minh - VietNam</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>250m2</span></p>
+         </div>
+         <a href="view_property.html" class="btn">Xem Nhà</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top:2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">Xem Tất Cả</a>
+   </div>
+
+</section>
+
+<!-- listings ends -->
 
 <!-- footer section starts -->
 
@@ -128,6 +311,19 @@
 
 <!-- js link  -->
 <script src="js/script.js"></script>
+
+
+<script>
+
+document.querySelector('#filter-btn').onclick = () =>{
+   document.querySelector('.filters').classList.add('active');
+}
+
+document.querySelector('#close-filter').onclick = () =>{
+   document.querySelector('.filters').classList.remove('active');
+}
+
+</script>
 
 </body>
 </html>
